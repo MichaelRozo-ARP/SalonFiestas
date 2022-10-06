@@ -1,7 +1,6 @@
 package com.SalonFiestas.Partyroom.controller;
 
 
-import com.SalonFiestas.Partyroom.entities.Partyroom;
 import com.SalonFiestas.Partyroom.entities.Reservation;
 import com.SalonFiestas.Partyroom.service.ReservationService;
 import org.springframework.beans.factory.annotation.Autowired;

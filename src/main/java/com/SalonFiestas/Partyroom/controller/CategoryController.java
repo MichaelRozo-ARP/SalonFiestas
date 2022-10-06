@@ -2,7 +2,6 @@ package com.SalonFiestas.Partyroom.controller;
 
 
 import com.SalonFiestas.Partyroom.entities.Category;
-import com.SalonFiestas.Partyroom.entities.Partyroom;
 import com.SalonFiestas.Partyroom.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
