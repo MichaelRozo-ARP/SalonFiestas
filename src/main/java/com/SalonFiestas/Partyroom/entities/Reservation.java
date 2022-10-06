@@ -1,7 +1,5 @@
 package com.SalonFiestas.Partyroom.entities;
 
-import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-
 import javax.persistence.*;
 import java.io.Serializable;
 import java.util.Date;
@@ -15,6 +13,7 @@ public class Reservation implements Serializable {
     private Integer idReservation;
     private Date startDate;
     private Date devolutionDate;
+
     public Integer getIdReservation() {
         return idReservation;
     }
@@ -38,5 +37,5 @@ public class Reservation implements Serializable {
     public void setDevolutionDate(Date devolutionDate) {
         this.devolutionDate = devolutionDate;
     }
-    
+
 }
